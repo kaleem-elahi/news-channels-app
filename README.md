@@ -2,6 +2,11 @@
 
 This app is built using React and Vite. It allows users to view news articles from various sources and save their favorite articles for later reading.
 
+<img width="1469" alt="image" src="https://github.com/user-attachments/assets/99910ceb-c610-498f-8c72-a3dcc4f0e48b" />
+<img width="442" alt="image" src="https://github.com/user-attachments/assets/b2be93f7-f747-4012-97f6-fc6dfe82238b" />
+<img width="441" alt="image" src="https://github.com/user-attachments/assets/c134f4f8-167e-4a33-9f03-5bc6f16be25c" />
+
+
 ## Features
 
 - View news articles from 2 APIs: NewsAPI and Guardian
