@@ -3,14 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://kaleem-elahi.github.io/news-channels-app",
   "scripts": {
    "predeploy": "npm run build",
-   "deploy": "gh-pages -d build",
+   "deploy" : "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "homepage": "https://kaleem-elahi.github.io/news-channels-app"
+    "preview": "vite preview"
   },
   "dependencies": {
     "dotenv": "^16.4.7",
