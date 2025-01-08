@@ -30,15 +30,15 @@ const ArticleCard: React.FC<ArticleCardProps> = ({
     <a
       href={url}
       target="_blank"
-      className="flex bg-neutral-50 w-auto bg-red rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 animate-fade-in text-left"
+      className="flex md:flex-row flex-col bg-neutral-50 w-auto bg-red rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 animate-fade-in text-left"
       rel="noopener noreferrer"
     >
-      <div className="  w-48 h-full flex-shrink-0">
+      <div className="w-full h-full flex-shrink-1 md:w-1/3 md:h-auto">
         {urlToImage && (
           <img
             src={urlToImage}
             alt={title}
-            className="w-full h-full  object-cover"
+            className="w-30 h-full object-cover"
           />
         )}
       </div>
