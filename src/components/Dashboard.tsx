@@ -53,11 +53,7 @@ const Dashboard = () => {
       setArticles(normalizedArticles);
     } catch (error) {
       console.error("Failed to fetch articles:", error);
-      alert({
-        title: "Error",
-        description: "Failed to fetch articles. Please try again later.",
-        variant: "destructive",
-      });
+      alert("Failed to fetch articles. Please try again later.");
     } finally {
       setLoading(false);
     }
